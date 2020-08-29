@@ -1,0 +1,27 @@
+{
+  "name": "css-document",
+  "version": "1.0.0",
+  "description": "前端文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "xiaohongjian",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "vuepress": "^1.5.4",
+    "vuepress-theme-reco": "^1.5.5"
+  },
+  "dependencies": {
+    "core-js": "^2.6.11",
+    "element-ui": "^2.13.2",
+    "highlight.js": "^10.1.2"
+  }
+}
